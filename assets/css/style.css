@@ -1,0 +1,64 @@
+	
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height:100%;
+        background:#000;
+    }
+    .bg{
+        
+        background:#000;
+        height: 100%;
+        width:100%;
+        background-position: center;        
+    }
+    .user_card {
+        height: 370px;
+        width: 350px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #303030;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+       
+    }
+    
+    
+    .login_btn {
+        width: 100%;
+        background: #68C230;
+        color: white;
+    }
+    .login_btn:focus {
+        outline: 0px;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background:#68C230 ;
+        color: white;
+        border: 0; 
+    }
+    .text-white {
+        color:#fff ;
+      }
+      .bg-white {
+        background-color: #fff;
+      }
+      
+      .bg-black {background-color: #000;}
+      
+      .bg-green { background-color: #67C232;}
+      .text-green {color:#67C232 }
+      
+      .candidate_photo{
+        width: 80px;
+        height: 80px;
+        border: 2px solid #67C232;
+        border-radius: 100%;
+      }
